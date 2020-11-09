@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-08T12:26:45.878Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="9YJqHXw7H4pIGVe2k5XS" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-09T07:41:08.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="HBUkUR3nrEIRsW_26hKc" version="13.9.1" type="github">
   <diagram id="Pxaiw7e1bs1Vgac5WNgr" name="Page-1">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="jRU4DG-PdXcAIgFG9BmV-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="jRU4DG-PdXcAIgFG9BmV-5">
           <mxGeometry x="45" y="150" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jRU4DG-PdXcAIgFG9BmV-15" value="HOOK操作&lt;br&gt;1.APP生命周期函数&lt;br&gt;2.页面生命周期函数&lt;br&gt;3.用户点击事件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="jRU4DG-PdXcAIgFG9BmV-14" parent="jRU4DG-PdXcAIgFG9BmV-5">
+        <mxCell id="jRU4DG-PdXcAIgFG9BmV-15" value="HOOK操作&lt;br&gt;1.AppEvent&lt;br&gt;2.AppViewEvent&lt;br&gt;3.AppClickEvent" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="jRU4DG-PdXcAIgFG9BmV-14" parent="jRU4DG-PdXcAIgFG9BmV-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="130" as="sourcePoint" />
             <Array as="points">
@@ -33,7 +33,7 @@
         <mxCell id="jRU4DG-PdXcAIgFG9BmV-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="jRU4DG-PdXcAIgFG9BmV-5">
           <mxGeometry x="55" y="268" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jRU4DG-PdXcAIgFG9BmV-36" value="事件发生视图路径&lt;br&gt;事件容器名称&lt;br&gt;埋点参数生成" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="jRU4DG-PdXcAIgFG9BmV-5">
+        <mxCell id="jRU4DG-PdXcAIgFG9BmV-36" value="App的状态&lt;br&gt;事件容器名称&lt;br&gt;事件发生视图路径&lt;br&gt;埋点参数生成" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="jRU4DG-PdXcAIgFG9BmV-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="249" as="sourcePoint" />
             <Array as="points">
