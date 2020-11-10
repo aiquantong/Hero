@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-11-09T15:05:01.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="B5SKdBfKobGYuG7dua_e" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-10T04:02:54.316Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="gIeb1yQAiFPXzzb_MC0D" version="13.9.1" type="github">
   <diagram id="2OpyZ2NsxplecvwPvl-V" name="Page-1">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nZjHZP_GbID4JEypJ_5Y-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="50" width="750" height="480" as="geometry" />
+          <mxGeometry x="30" y="50" width="750" height="370" as="geometry" />
         </mxCell>
         <mxCell id="nZjHZP_GbID4JEypJ_5Y-8" value="" style="shape=mxgraph.bpmn.user_task;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="100" width="60" height="70" as="geometry" />
@@ -76,19 +76,19 @@
         <mxCell id="nZjHZP_GbID4JEypJ_5Y-30" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;添加PV/VU统计表&lt;br&gt;统计联想词命中表&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="51" y="210" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nZjHZP_GbID4JEypJ_5Y-31" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;建模&lt;br&gt;需要埋点定义&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-31" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;建模&lt;br&gt;需要埋点定义&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="190" y="210" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nZjHZP_GbID4JEypJ_5Y-32" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;埋&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-32" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;埋&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="305" y="210" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nZjHZP_GbID4JEypJ_5Y-33" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;校验数据&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-33" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;校验数据&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="425" y="210" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZjHZP_GbID4JEypJ_5Y-34" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;验收&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="210" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nZjHZP_GbID4JEypJ_5Y-35" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;使用/返回&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-35" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;使用/反馈&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="665" y="210" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZjHZP_GbID4JEypJ_5Y-37" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="nZjHZP_GbID4JEypJ_5Y-30">
@@ -121,11 +121,11 @@
             <mxPoint x="670" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nZjHZP_GbID4JEypJ_5Y-44" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1，产品给到数分需求滞后或者定义不明确&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2，数分没有按要求进行建模，给出埋点定义不明确&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3，技术埋点没有对照文档，埋点丢失字段&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4，QA只能保证埋点存在，不能保证数据格式正确&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5，产品验收，没有具体统计表只有埋点，验收不准确&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;6，运营时候，容易出现数据丢失问题&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="290" width="300" height="90" as="geometry" />
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-44" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1，数分无法区分埋点实施客户端或者服务端，容易导致丢失&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2，技埋点没有对照文档，埋点丢失字段&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3，QA只能保证埋点存在，不能保证数据格式正确&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="290" width="340" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="nZjHZP_GbID4JEypJ_5Y-45" value="&lt;div style=&quot;text-align: left&quot;&gt;1，埋点使用和反馈流程过长，验收标准对象不正确&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2，埋点字段不能作为验收成果，统计表才是验收成果&lt;br&gt;3，QA\产品调整自己验收标准从埋点存在 --&amp;gt; 统计表导出&lt;br&gt;4，问题反馈需要缩小范围，【数分、技术】排查，QA和产品无法排查建模&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="290" width="410" height="90" as="geometry" />
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-45" value="&lt;div&gt;1，添加埋点需求&lt;font color=&quot;#ff0000&quot;&gt;统一接头人&lt;/font&gt;，完成埋点实施&lt;/div&gt;&lt;div&gt;2，大数据部门完成&lt;font color=&quot;#ff0000&quot;&gt;校验埋点工具&lt;/font&gt;开发&lt;/div&gt;&lt;div&gt;3，技术和QA&lt;font color=&quot;#ff0000&quot;&gt;以校验工具为标准&lt;/font&gt;完成自测和验收&lt;/div&gt;&lt;div&gt;4，调整验收标准为&lt;font color=&quot;#cc0000&quot;&gt;统计报表&lt;/font&gt;生成&lt;/div&gt;&lt;div&gt;&lt;div&gt;4，运营反馈&lt;font color=&quot;#ff0000&quot;&gt;明确责任人&lt;/font&gt;【数分、埋点接头人】排查&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="395" y="290" width="340" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
