@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T04:02:54.316Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="gIeb1yQAiFPXzzb_MC0D" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-10T05:01:51.734Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="kI6AIRWF8NFJj44hUJW_" version="13.9.1" type="github">
   <diagram id="2OpyZ2NsxplecvwPvl-V" name="Page-1">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,13 +73,13 @@
             <mxPoint x="670" y="134.83333333333337" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nZjHZP_GbID4JEypJ_5Y-30" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;添加PV/VU统计表&lt;br&gt;统计联想词命中表&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-30" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;测评PV/UV统计表&lt;br&gt;联想词命中表&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="51" y="210" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZjHZP_GbID4JEypJ_5Y-31" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;建模&lt;br&gt;需要埋点定义&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="190" y="210" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nZjHZP_GbID4JEypJ_5Y-32" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;埋&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-32" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;【客户端/&lt;br&gt;服务端】&lt;br&gt;埋&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="305" y="210" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZjHZP_GbID4JEypJ_5Y-33" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;校验数据&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -121,11 +121,20 @@
             <mxPoint x="670" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nZjHZP_GbID4JEypJ_5Y-44" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1，数分无法区分埋点实施客户端或者服务端，容易导致丢失&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2，技埋点没有对照文档，埋点丢失字段&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3，QA只能保证埋点存在，不能保证数据格式正确&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-44" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1，数分无法区分埋点实施客户端或者服务端，容易导致丢失&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2，技埋点没有对照文档，描述埋点丢失字段&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3，QA只能保证埋点存在，不能保证数据格式正确&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="290" width="340" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="nZjHZP_GbID4JEypJ_5Y-45" value="&lt;div&gt;1，添加埋点需求&lt;font color=&quot;#ff0000&quot;&gt;统一接头人&lt;/font&gt;，完成埋点实施&lt;/div&gt;&lt;div&gt;2，大数据部门完成&lt;font color=&quot;#ff0000&quot;&gt;校验埋点工具&lt;/font&gt;开发&lt;/div&gt;&lt;div&gt;3，技术和QA&lt;font color=&quot;#ff0000&quot;&gt;以校验工具为标准&lt;/font&gt;完成自测和验收&lt;/div&gt;&lt;div&gt;4，调整验收标准为&lt;font color=&quot;#cc0000&quot;&gt;统计报表&lt;/font&gt;生成&lt;/div&gt;&lt;div&gt;&lt;div&gt;4，运营反馈&lt;font color=&quot;#ff0000&quot;&gt;明确责任人&lt;/font&gt;【数分、埋点接头人】排查&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-45" value="&lt;div&gt;1，添加埋点需求&lt;font color=&quot;#ff0000&quot;&gt;接头人&lt;/font&gt;，完成埋点实施&lt;/div&gt;&lt;div&gt;2，技术埋点需要有具体对照文档，&lt;font color=&quot;#ff0000&quot;&gt;无文档不埋点&lt;/font&gt;&lt;/div&gt;&lt;div&gt;3，技术和QA&lt;font color=&quot;#ff0000&quot;&gt;以大数据部门校验工具为标准&lt;/font&gt;完成自测和验收&lt;/div&gt;&lt;div&gt;4，调整验收标准为&lt;font color=&quot;#cc0000&quot;&gt;统计报表&lt;/font&gt;生成&lt;/div&gt;&lt;div&gt;&lt;div&gt;5，运营反馈&lt;font color=&quot;#ff0000&quot;&gt;明确责任人&lt;/font&gt;【数分、埋点接头人】排查&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="395" y="290" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-46" value="需求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-47" value="实施" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-48" value="线上反馈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="60" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
