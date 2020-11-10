@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T06:13:22.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="B9e8mob6uhS5ADq0lC-_" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-10T07:11:10.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="bgwQBZ4_8_xr1z8JNg_2" version="13.9.1" type="github">
   <diagram id="gwVRr4cy5PqR1nO9Cp0J" name="Page-1">
-    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry x="340" y="180" width="110" height="45" as="geometry" />
         </mxCell>
         <mxCell id="hRAxWKmdPEZgCHhW1vPu-7" value="AppClickEvent：按钮点击，进度拖动，列表点击" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="180" width="130" height="40" as="geometry" />
+          <mxGeometry x="115" y="182.5" width="145" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
