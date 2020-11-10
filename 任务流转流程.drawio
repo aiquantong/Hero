@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T05:01:51.734Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="kI6AIRWF8NFJj44hUJW_" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-10T05:04:14.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="LsqqbPE9t0D0uo96icZi" version="13.9.1" type="github">
   <diagram id="2OpyZ2NsxplecvwPvl-V" name="Page-1">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,10 +122,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nZjHZP_GbID4JEypJ_5Y-44" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1，数分无法区分埋点实施客户端或者服务端，容易导致丢失&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2，技埋点没有对照文档，描述埋点丢失字段&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3，QA只能保证埋点存在，不能保证数据格式正确&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="290" width="340" height="90" as="geometry" />
+          <mxGeometry x="50" y="310" width="340" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="nZjHZP_GbID4JEypJ_5Y-45" value="&lt;div&gt;1，添加埋点需求&lt;font color=&quot;#ff0000&quot;&gt;接头人&lt;/font&gt;，完成埋点实施&lt;/div&gt;&lt;div&gt;2，技术埋点需要有具体对照文档，&lt;font color=&quot;#ff0000&quot;&gt;无文档不埋点&lt;/font&gt;&lt;/div&gt;&lt;div&gt;3，技术和QA&lt;font color=&quot;#ff0000&quot;&gt;以大数据部门校验工具为标准&lt;/font&gt;完成自测和验收&lt;/div&gt;&lt;div&gt;4，调整验收标准为&lt;font color=&quot;#cc0000&quot;&gt;统计报表&lt;/font&gt;生成&lt;/div&gt;&lt;div&gt;&lt;div&gt;5，运营反馈&lt;font color=&quot;#ff0000&quot;&gt;明确责任人&lt;/font&gt;【数分、埋点接头人】排查&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="395" y="290" width="340" height="90" as="geometry" />
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-45" value="&lt;div&gt;1，添加埋点需求&lt;font color=&quot;#ff0000&quot;&gt;接头人&lt;/font&gt;，把握具体技术方和埋点定义传递&lt;/div&gt;&lt;div&gt;2，技术埋点需要有具体对照文档，&lt;font color=&quot;#ff0000&quot;&gt;无文档不埋点&lt;/font&gt;&lt;/div&gt;&lt;div&gt;3，技术和QA&lt;font color=&quot;#ff0000&quot;&gt;以大数据部门校验工具为标准&lt;/font&gt;完成自测和验收&lt;/div&gt;&lt;div&gt;4，调整验收标准为&lt;font color=&quot;#cc0000&quot;&gt;统计报表&lt;/font&gt;生成&lt;/div&gt;&lt;div&gt;&lt;div&gt;5，运营反馈&lt;font color=&quot;#ff0000&quot;&gt;明确责任人&lt;/font&gt;【数分、埋点接头人】排查&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="395" y="310" width="340" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nZjHZP_GbID4JEypJ_5Y-46" value="需求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="60" width="90" height="30" as="geometry" />
@@ -135,6 +135,12 @@
         </mxCell>
         <mxCell id="nZjHZP_GbID4JEypJ_5Y-48" value="线上反馈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-49" value="问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nZjHZP_GbID4JEypJ_5Y-50" value="建议" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="290" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
