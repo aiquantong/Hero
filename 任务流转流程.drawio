@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T11:05:36.310Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="YhU_aVZlbphsWVm0SmTd" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-17T11:22:40.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ThiFDVqGawozew-mdjD-" version="13.9.9" type="github">
   <diagram id="2OpyZ2NsxplecvwPvl-V" name="Page-1">
-    <mxGraphModel dx="1728" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2493" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,8 +172,11 @@
         <mxCell id="cm4KdflAYXEXYrAGIoxH-12" value="阶段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-40" y="580" width="55" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cm4KdflAYXEXYrAGIoxH-13" value="技术评审会接口对接部分 -- 当红娘&lt;br&gt;需要【数分/ 对接接口人】完成埋点需求的对接，并名字维护到文档中&lt;br&gt;完成埋点工作量对接【数分负责人/接口负责人】&lt;br&gt;后台端技术负责人前端提醒" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="550" width="380" height="70" as="geometry" />
+        <mxCell id="cm4KdflAYXEXYrAGIoxH-13" value="技术评审会接口对接部分 -- &lt;font color=&quot;#ff3333&quot;&gt;当红娘&lt;/font&gt;&lt;br&gt;需要【数分/ 对接接口人】完成埋点需求的对接，并名字维护到文档中&lt;br&gt;完成埋点工作量对接【数分负责人/接口负责人】&lt;br&gt;后台端技术负责人前端提醒" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="550" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cm4KdflAYXEXYrAGIoxH-14" value="前端维护的TP名称，在开发提交测试前完成命名TP名称定义&amp;nbsp;&lt;br&gt;1，Vc整个名称为route名称，没有则建议完成路由信息&lt;br&gt;2，模块名称：banner, icon, list, feed_list&lt;br&gt;3，对应的模块需要打上序号，表示清楚。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="436" y="550" width="350" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
