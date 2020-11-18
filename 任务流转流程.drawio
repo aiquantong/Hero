@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T09:09:29.244Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="wpLWAdMc8OAm974pomty" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T09:10:59.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="W0n4yW67i10jzbJb32dt" version="13.9.9" type="github">
   <diagram id="2OpyZ2NsxplecvwPvl-V" name="Page-1">
     <mxGraphModel dx="2250" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,16 +155,16 @@
           <mxGeometry x="-40" y="130" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="umj2pTrckc06KtbFGjhR-9" value="工作输出" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="230" width="55" height="20" as="geometry" />
+          <mxGeometry x="-40" y="210" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="umj2pTrckc06KtbFGjhR-10" value="TAPD" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-40" y="402" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cm4KdflAYXEXYrAGIoxH-2" value="节点" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="cm4KdflAYXEXYrAGIoxH-2" value="问题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-40" y="300" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cm4KdflAYXEXYrAGIoxH-4" value="&lt;div&gt;&lt;span&gt;登记到TAPD&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1，梳理点击埋点&lt;br&gt;埋点A：参数【渠道\价格\配色\尺码】&lt;br&gt;&lt;/div&gt;&lt;div&gt;埋点B:&amp;nbsp; 参数X........&lt;/div&gt;2，梳理&lt;span&gt;曝光事件&lt;/span&gt;&lt;br&gt;&lt;div&gt;曝光A：曝光key生成要素&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="180" y="402" width="220" height="108" as="geometry" />
+        <mxCell id="cm4KdflAYXEXYrAGIoxH-4" value="&lt;div&gt;&lt;span&gt;登记到TAPD&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1，梳理点击埋点&lt;br&gt;埋点A：参数【渠道\价格\配色\尺码】&lt;br&gt;&lt;/div&gt;&lt;div&gt;埋点B:&amp;nbsp; 参数X........&lt;/div&gt;2，梳理&lt;span&gt;曝光事件&lt;/span&gt;&lt;br&gt;&lt;div&gt;曝光A：曝光key生成要素&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="190" y="402" width="210" height="108" as="geometry" />
         </mxCell>
         <mxCell id="cm4KdflAYXEXYrAGIoxH-7" value="&lt;div&gt;登记到TAPD 【1，2，3，4】&lt;/div&gt;&lt;div&gt;1, 需求接头人技术评审会接口对接部分牵线，梳理埋点实施方【后端/前端】&lt;/div&gt;&lt;div&gt;2, 前端维护TP名称，并将其维护到埋点文档 【预先】&amp;nbsp;&lt;/div&gt;&lt;div&gt;3, 后端维护业务字段/曝光key，需要对接TAPD，并将其维护到埋点文档&lt;br&gt;4, 有需求接头人和数分进行double check，并登记状态到TAPD&lt;br&gt;5, 按文档进行操作，TP暂时由后端埋上，等前端支持TP后端将不用上送TP&lt;/div&gt;&lt;div&gt;6, 大数据部门校验工具上线，请切换新的校验标准&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="436" y="402" width="484" height="108" as="geometry" />
@@ -173,16 +173,16 @@
           <mxGeometry x="-40" y="536" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cm4KdflAYXEXYrAGIoxH-13" value="&lt;font color=&quot;#ff3333&quot;&gt;技术评审会&lt;/font&gt;接口对接部分 -- &lt;font color=&quot;#ff3333&quot;&gt;当红娘&lt;/font&gt;&lt;br&gt;需要【数分/ 对接接口人】完成埋点需求的对接，责任人名字维护到文档中&lt;br&gt;后台端技术负责人前端提醒" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="50" y="536" width="350" height="70" as="geometry" />
+          <mxGeometry x="50" y="536" width="350" height="84" as="geometry" />
         </mxCell>
         <mxCell id="cm4KdflAYXEXYrAGIoxH-14" value="前端维护的TP名称，&lt;font color=&quot;#ff0000&quot;&gt;技术评审会前&lt;/font&gt;完成命名TP名称定义&amp;nbsp;&lt;br&gt;1，外层tp为整个名称为route名称，没有则建议完成路由信息建设&lt;br&gt;2，模块名称：banner, icon, list, feed_list，&lt;font color=&quot;#cc0000&quot;&gt;正确典型&lt;/font&gt;&lt;br&gt;3，维护到文档中对应的模块需要打上序号表示清楚，以:分割，&lt;font color=&quot;#ff0000&quot;&gt;错误典型&lt;/font&gt;&lt;br&gt;4，#内部的from / block, 为当前埋点发生地址/模块，建议TP命名规则一致" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="436" y="536" width="424" height="84" as="geometry" />
+          <mxGeometry x="436" y="536" width="484" height="84" as="geometry" />
         </mxCell>
         <mxCell id="u6EzManBt8R0pe6F9Wfs-1" value="要点" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-40" y="670" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="u6EzManBt8R0pe6F9Wfs-2" value="&lt;font color=&quot;#ff3333&quot;&gt;1，前端完成TP命名定义&lt;br&gt;2，技术评审会&lt;/font&gt;接完成【数分/对接方工作牵头】对接工作 -- &lt;font color=&quot;#ff3333&quot;&gt;当红娘&lt;br&gt;3，&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;客户端维护TP名称，&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;谁埋点谁维护文档&lt;br&gt;4，技术负责人推动tapd的文档落地/文档定义维护，并维护负责人姓名&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="50" y="660" width="500" height="70" as="geometry" />
+          <mxGeometry x="50" y="660" width="390" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
