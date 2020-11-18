@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T13:46:45.172Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="RPN0jNKs8J_SGv_wa1qX" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T13:49:16.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="xA7sq_XExujhPsbS4Jyw" version="13.9.9" type="github">
   <diagram id="2OpyZ2NsxplecvwPvl-V" name="Page-1">
     <mxGraphModel dx="2404" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,14 +151,17 @@
         <mxCell id="umj2pTrckc06KtbFGjhR-9" value="工作输出" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-40" y="210" width="55" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cm4KdflAYXEXYrAGIoxH-2" value="问题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="300" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="cm4KdflAYXEXYrAGIoxH-4" value="&lt;div&gt;&lt;span&gt;登记到TAPD&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1，梳理点击埋点&lt;br&gt;埋点A：参数【渠道\价格\配色\尺码】&lt;br&gt;&lt;/div&gt;&lt;div&gt;埋点B:&amp;nbsp; 参数X........&lt;/div&gt;2，梳理&lt;span&gt;曝光事件&lt;/span&gt;&lt;br&gt;&lt;div&gt;曝光A：曝光key生成要素&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="190" y="280" width="210" height="108" as="geometry" />
+          <mxGeometry x="190" y="298" width="210" height="108" as="geometry" />
         </mxCell>
         <mxCell id="cm4KdflAYXEXYrAGIoxH-7" value="&lt;div&gt;登记到TAPD 【1，2，3，4】&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1, 需求接头人技术评审会完成牵线，梳理埋点实施方【后端/前端】&lt;/div&gt;&lt;div&gt;2, 前端维护TP名称，并将其维护到埋点文档 【预先】&amp;nbsp;&lt;/div&gt;&lt;div&gt;3, 后端维护业务字段/曝光key埋点，并将其维护到埋点文档&lt;br&gt;4, 有需求接头人和数分进行double check，并登记状态到TAPD&lt;br&gt;5, 按文档进行操作，TP暂时由后端埋上，等前端支持TP后端将不用上送TP&lt;/div&gt;&lt;div&gt;6, 大数据部门校验工具上线，请切换新的校验标准&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="436" y="280" width="424" height="150" as="geometry" />
+          <mxGeometry x="436" y="298" width="404" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jyv6QxD_IiGIYbn77Hb-1" value="&lt;font color=&quot;#1f2329&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;明确携带埋点需求&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="51" y="298" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jyv6QxD_IiGIYbn77Hb-2" value="需求接头人" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="411" y="555" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
