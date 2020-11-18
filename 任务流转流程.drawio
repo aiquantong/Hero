@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T03:09:03.035Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="GoR5cKs6XnN7rmGTYrEq" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T08:37:23.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Rcb5LwY_PIw0_cyI2hW3" version="13.9.9" type="github">
   <diagram id="2OpyZ2NsxplecvwPvl-V" name="Page-1">
-    <mxGraphModel dx="1728" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2250" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,7 +181,7 @@
         <mxCell id="u6EzManBt8R0pe6F9Wfs-1" value="要点" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-40" y="670" width="55" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="u6EzManBt8R0pe6F9Wfs-2" value="&lt;font color=&quot;#ff3333&quot;&gt;1，前端完成TP命名定义&lt;br&gt;2，促成技术评审会&lt;/font&gt;接完成【数分/对接方工作牵头】-- &lt;font color=&quot;#ff3333&quot;&gt;当红娘&lt;br&gt;3，谁埋点谁维护文档，客户端维护TP名称&lt;br&gt;4，技术负责人推动tapd的文档落地/文档定义维护&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="u6EzManBt8R0pe6F9Wfs-2" value="&lt;font color=&quot;#ff3333&quot;&gt;1，前端完成TP命名定义&lt;br&gt;2，促成技术评审会&lt;/font&gt;接完成【数分/对接方工作牵头】-- &lt;font color=&quot;#ff3333&quot;&gt;当红娘&lt;br&gt;3，谁埋点谁维护文档，客户端维护TP名称&lt;br&gt;4，技术负责人推动tapd的文档落地/文档定义维护，并维护负责人姓名&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="50" y="660" width="500" height="70" as="geometry" />
         </mxCell>
       </root>
