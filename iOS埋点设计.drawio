@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T05:45:50.371Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="fSDfKC5q0T_UMgQje3IE" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T08:51:10.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="kYzbIuN4DXsa27GGOd9T" version="13.9.9" type="github">
   <diagram id="Gv3IoVOVaqEcXU43pG7Q" name="Page-1">
     <mxGraphModel dx="1423" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,10 +14,10 @@
           <mxGeometry y="26" width="140" height="154" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-22" value="SHBuriedPointStatisticsTool" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="450" y="374" width="200" height="140" as="geometry" />
+          <mxGeometry x="450" y="374" width="310" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-23" value="-func genTpName()&#xa;&#xa;- func genTp(String tpId)&#xa;&#xa;- func genTpExtra()&#xa;&#xa;- func generateStatisticsStr()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ts1Hukwt0rimH9VaoT8l-22" vertex="1">
-          <mxGeometry y="26" width="200" height="114" as="geometry" />
+        <mxCell id="ts1Hukwt0rimH9VaoT8l-23" value="&#xa;- func genTp(String tpId)&#xa;&#xa;- func genTpExtra()&#xa;&#xa;- func generateStatisticsStr(href, tp, tpName, tpExtra)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ts1Hukwt0rimH9VaoT8l-22" vertex="1">
+          <mxGeometry y="26" width="310" height="114" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-31" value="UIViewController" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="140" width="140" height="180" as="geometry" />
@@ -80,49 +80,93 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-63" value="StatisticsEvent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="446" y="535" width="180" height="60" as="geometry" />
+          <mxGeometry x="494" y="538" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-64" value="- func sendDaceEvent&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ts1Hukwt0rimH9VaoT8l-63" vertex="1">
           <mxGeometry y="26" width="180" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-67" value="" style="endArrow=classic;html=1;exitX=0.428;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ts1Hukwt0rimH9VaoT8l-23" edge="1" target="ts1Hukwt0rimH9VaoT8l-63">
+        <mxCell id="ts1Hukwt0rimH9VaoT8l-67" value="" style="endArrow=classic;html=1;exitX=0.428;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ts1Hukwt0rimH9VaoT8l-23" target="ts1Hukwt0rimH9VaoT8l-63" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="550" as="sourcePoint" />
             <mxPoint x="536" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-68" value="&lt;h1 id=&quot;titleHeading&quot; style=&quot;margin: 0px ; background-position: 0px 0px&quot;&gt;&lt;font color=&quot;#a09fa0&quot; face=&quot;helvetica, lucida grande, lucida, verdana, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;traversal&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=1;entryY=0.431;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ts1Hukwt0rimH9VaoT8l-34" edge="1">
+        <mxCell id="ts1Hukwt0rimH9VaoT8l-68" value="&lt;h1 id=&quot;titleHeading&quot; style=&quot;margin: 0px ; background-position: 0px 0px&quot;&gt;&lt;font color=&quot;#a09fa0&quot; face=&quot;helvetica, lucida grande, lucida, verdana, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;traversal&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=1;entryY=0.431;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.351;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="ts1Hukwt0rimH9VaoT8l-23">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="650" y="440" as="sourcePoint" />
-            <mxPoint x="790" y="440" as="targetPoint" />
+            <mxPoint x="779.98" y="440" as="sourcePoint" />
+            <mxPoint x="840" y="350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="780" y="440" />
+              <mxPoint x="839.98" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-69" value="&lt;span&gt;采用配置文件统一管控，手动携带对应字段&lt;br&gt;&lt;/span&gt;&lt;span&gt;genTpExtra 为遍历UIStack生成TPExtra&lt;br&gt;&lt;/span&gt;&lt;span&gt;对应href如存在tpExtra，以href现有为准&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="ts1Hukwt0rimH9VaoT8l-69" value="&lt;span&gt;采用配置文件管控，手动携带对应TP字段&lt;br&gt;&lt;/span&gt;&lt;span&gt;genTpExtra 为遍历UIStack生成TPExtra&lt;br&gt;&lt;/span&gt;&lt;span&gt;对应href如存在tpExtra，以href现有为准&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="840" y="480" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-70" value="&lt;span&gt;RN 存在复用，RN路由跳转&lt;br&gt;Native 获取TP维护到RN VCStack&lt;br&gt;添加TPExtra【fTP, ffTP】完成埋点信息&lt;br&gt;RXSwift可能获取到当前View&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="840" y="550" width="340" height="70" as="geometry" />
+        <mxCell id="ts1Hukwt0rimH9VaoT8l-70" value="&lt;span&gt;Native内嵌入RN容器，RN的跳转TP维护交给Native&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="530" y="680" width="340" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aAOs8Qah9MS43MJjV7gb-1" value="UIViewController tp，name 存放VC跳转tp/name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aAOs8Qah9MS43MJjV7gb-1" value="UIViewController tp，name 存放VC跳转tp/name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="320" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="aAOs8Qah9MS43MJjV7gb-3" value="{&quot;bbsHome_search&quot;:&quot;bbsHome:search&quot;,&lt;br&gt;&quot;bbsHome_notification&quot;:&quot;bbsHome:notification&quot;,&lt;br&gt;&quot;bbsHome_topicMore&quot;:&quot;bbsHome:topicMore&quot;,&lt;br&gt;&quot;bbsHome_topList&quot;:&quot;bbsHome:topicList:[N]&quot;,&lt;br&gt;&quot;bbsHome_feed&quot;:&quot;bbsHome:Feed:[N]&quot;,&lt;br&gt;&quot;bbsHome_publish&quot;:&quot;bbsHome:Publish&quot;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="aAOs8Qah9MS43MJjV7gb-3" value="{&quot;bbsHome_search&quot;:&quot;bbsHome:search&quot;,&lt;br&gt;&quot;bbsHome_notification&quot;:&quot;bbsHome:notification&quot;,&lt;br&gt;&quot;bbsHome_topicMore&quot;:&quot;bbsHome:topicMore&quot;,&lt;br&gt;&quot;bbsHome_topList&quot;:&quot;bbsHome:topicList:[N]&quot;,&lt;br&gt;&quot;bbsHome_feed&quot;:&quot;bbsHome:Feed:[N]&quot;,&lt;br&gt;&quot;bbsHome_publish&quot;:&quot;bbsHome:Publish&quot;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1060" y="100" width="310" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="aAOs8Qah9MS43MJjV7gb-4" value="&lt;h1 id=&quot;titleHeading&quot; style=&quot;margin: 0px ; background-position: 0px 0px&quot;&gt;&lt;font color=&quot;#a09fa0&quot; face=&quot;helvetica, lucida grande, lucida, verdana, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;search&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="aAOs8Qah9MS43MJjV7gb-3">
+        <mxCell id="aAOs8Qah9MS43MJjV7gb-4" value="&lt;h1 id=&quot;titleHeading&quot; style=&quot;margin: 0px ; background-position: 0px 0px&quot;&gt;&lt;font color=&quot;#a09fa0&quot; face=&quot;helvetica, lucida grande, lucida, verdana, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;search&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1.003;exitY=0.096;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="aAOs8Qah9MS43MJjV7gb-3" edge="1" source="ts1Hukwt0rimH9VaoT8l-23">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="650" y="410" as="sourcePoint" />
+            <mxPoint x="790" y="410" as="sourcePoint" />
             <mxPoint x="780.02" y="320" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1215" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aAOs8Qah9MS43MJjV7gb-5" value="configure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aAOs8Qah9MS43MJjV7gb-5" value="configure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1190" y="70" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OzCxuIW4rJWoH-lSTNHB-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="631" width="20" height="438" as="geometry" />
+        </mxCell>
+        <mxCell id="OzCxuIW4rJWoH-lSTNHB-2" value="home_rank" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="OzCxuIW4rJWoH-lSTNHB-1" target="OzCxuIW4rJWoH-lSTNHB-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="70" as="sourcePoint" />
+            <mxPoint x="90" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzCxuIW4rJWoH-lSTNHB-3" value="&amp;nbsp;RN" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="640" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="OzCxuIW4rJWoH-lSTNHB-7" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="640" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="OzCxuIW4rJWoH-lSTNHB-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OzCxuIW4rJWoH-lSTNHB-7">
+          <mxGeometry x="50" y="160" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzCxuIW4rJWoH-lSTNHB-18" value="RN Stack" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="OzCxuIW4rJWoH-lSTNHB-17" parent="OzCxuIW4rJWoH-lSTNHB-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzCxuIW4rJWoH-lSTNHB-15" value="goodDetail" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="750" as="sourcePoint" />
+            <mxPoint x="269.5" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzCxuIW4rJWoH-lSTNHB-16" value="Route" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="OzCxuIW4rJWoH-lSTNHB-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="270" y="760" as="sourcePoint" />
+            <mxPoint x="419.5" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzCxuIW4rJWoH-lSTNHB-19" value="&lt;p style=&quot;margin: 10px 0px 0px ; padding: 0px ; color: rgb(23 , 43 , 77) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(59 , 67 , 81)&quot;&gt;&lt;a style=&quot;color: rgb(0 , 82 , 204)&quot;&gt;shihuo://www.shihuo.cn?route=goodsDetail&amp;amp;id=740745&amp;amp;styleId=6525933&amp;amp;fromTp=home:feed_list&amp;amp;fromRequestId=&amp;amp;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px 0px 0px ; padding: 0px ; color: rgb(23 , 43 , 77) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(59 , 67 , 81)&quot;&gt;&lt;a style=&quot;color: rgb(0 , 82 , 204)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;tpExtra&lt;/span&gt;={&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;a style=&quot;color: rgb(0 , 82 , 204) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&quot;sourceTp&quot;:&quot;&quot;,&quot;sourceTpName&quot;:&quot;&quot;,&lt;/a&gt;&lt;p style=&quot;margin: 10px 0px 0px ; padding: 0px ; color: rgb(23 , 43 , 77) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(59 , 67 , 81)&quot;&gt;&lt;a style=&quot;color: rgb(0 , 82 , 204)&quot;&gt;&quot;fReqId&quot;:&quot;&quot;,&quot;fTp&quot;:&quot;home:feed_list&quot;,&quot;fTpName&quot;:&quot;recommend&quot;,&quot;ffTp&quot;:&quot;&quot;,&quot;ffTpName&quot;:&quot;&quot;,&quot;ffReqId&quot;:&quot;&quot;}&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px 0px 0px ; padding: 0px ; color: rgb(23 , 43 , 77) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(59 , 67 , 81)&quot;&gt;&lt;a style=&quot;color: rgb(0 , 82 , 204)&quot;&gt;&amp;amp;dspm=cd2a69755b30619f#&lt;/a&gt;&lt;/span&gt;&lt;a style=&quot;color: rgb(0 , 82 , 204)&quot;&gt;{&quot;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;extra&lt;/span&gt;&quot;:&quot;recommend&quot;,&quot;index&quot;:&quot;5&quot;,&quot;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;tp&lt;/span&gt;&quot;:&quot;home:feed_list&quot;,&quot;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;from&lt;/span&gt;&quot;:&quot;home&quot;,&quot;scene&quot;:&quot;HOME_FEED_RECOMMEND_RANK&quot;,&lt;/a&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px 0px 0px ; padding: 0px ; color: rgb(23 , 43 , 77) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;a style=&quot;color: rgb(0 , 82 , 204)&quot;&gt;&quot;style_id&quot;:&quot;6525933&quot;,&quot;dspm&quot;:&quot;cd2a69755b30619f&quot;,&quot;dg_request_id&quot;:&quot;TTdiq7mmhlpo00&quot;,&quot;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;tab&lt;/span&gt;&quot;:&quot;recommend&quot;,&lt;/a&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px 0px 0px ; padding: 0px ; color: rgb(23 , 43 , 77) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;a style=&quot;color: rgb(0 , 82 , 204)&quot;&gt;&quot;&lt;span style=&quot;color: rgb(255 , 0 , 0)&quot;&gt;block&lt;/span&gt;&quot;:&quot;news_general_item_dg&quot;,&quot;goods_id&quot;:&quot;740745&quot;,&quot;sort&quot;:&quot;5&quot;,&quot;pageNo&quot;:&quot;1&lt;/a&gt;&lt;span style=&quot;color: rgb(59 , 67 , 81)&quot;&gt;&quot;}&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(59 , 67 , 81)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="750" width="920" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="OzCxuIW4rJWoH-lSTNHB-20" value="&lt;span&gt;Native 解析TPExtra fTP/fTpName 维护到RN VCStack&lt;br&gt;补充TPExtra【sourceTp，ffTP】完成埋点信息&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="970" width="310" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
