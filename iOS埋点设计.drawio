@@ -1,20 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T15:11:26.814Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="elWlOuVL_uXRZejM3ISo" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T04:27:47.506Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="FvlLemHk3gomszALHlg2" version="13.9.9" type="github">
   <diagram id="Gv3IoVOVaqEcXU43pG7Q" name="Page-1">
-    <mxGraphModel dx="1287" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1423" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ts1Hukwt0rimH9VaoT8l-34" value="UIStack" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="100" width="580" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-4" value="UIView" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1106" y="129" width="130" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-5" value="- tp: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ts1Hukwt0rimH9VaoT8l-4" vertex="1">
-          <mxGeometry y="26" width="130" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-6" value="- name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ts1Hukwt0rimH9VaoT8l-4" vertex="1">
-          <mxGeometry y="52" width="130" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-12" value="UIViewController" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="471" y="140" width="140" height="180" as="geometry" />
@@ -23,21 +14,10 @@
           <mxGeometry y="26" width="140" height="154" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-22" value="SHBuriedPointStatisticsTool" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="450" y="374" width="180" height="110" as="geometry" />
+          <mxGeometry x="450" y="374" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-23" value="- func genTpAndName()&#xa;&#xa;- func genTpExtra()&#xa;&#xa;- func generateStatisticsStr()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ts1Hukwt0rimH9VaoT8l-22" vertex="1">
-          <mxGeometry y="26" width="180" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-61" value="" style="endArrow=classic;html=1;entryX=1.022;entryY=0.845;entryDx=0;entryDy=0;entryPerimeter=0;" parent="ts1Hukwt0rimH9VaoT8l-22" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="164" y="40" as="sourcePoint" />
-            <mxPoint x="163.96000000000004" y="96.98000000000002" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="200" y="40" />
-              <mxPoint x="200" y="56" />
-              <mxPoint x="200" y="97" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="ts1Hukwt0rimH9VaoT8l-23" value="- func genTpAndName(String tpId)&#xa;&#xa;- func genTpExtra()&#xa;&#xa;- func generateStatisticsStr()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ts1Hukwt0rimH9VaoT8l-22" vertex="1">
+          <mxGeometry y="26" width="200" height="84" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-31" value="UIViewController" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="140" width="140" height="180" as="geometry" />
@@ -61,12 +41,6 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="10" y="70" as="sourcePoint" />
             <mxPoint x="90" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-38" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.019;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ts1Hukwt0rimH9VaoT8l-30" target="ts1Hukwt0rimH9VaoT8l-5" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="980" y="170" as="sourcePoint" />
-            <mxPoint x="1090" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-39" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
@@ -105,18 +79,8 @@
             <mxPoint x="349.5" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-62" value="" style="endArrow=classic;html=1;entryX=0.9;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ts1Hukwt0rimH9VaoT8l-23" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="612.98" y="430.028" as="sourcePoint" />
-            <mxPoint x="612" y="470.99199999999996" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="651" y="446" />
-              <mxPoint x="651" y="470" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-63" value="StatisticsEvent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="450" y="522" width="180" height="60" as="geometry" />
+          <mxGeometry x="450" y="525" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-64" value="- func sendDaceEvent&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ts1Hukwt0rimH9VaoT8l-63" vertex="1">
           <mxGeometry y="26" width="180" height="34" as="geometry" />
@@ -124,12 +88,12 @@
         <mxCell id="ts1Hukwt0rimH9VaoT8l-67" value="" style="endArrow=classic;html=1;exitX=0.428;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ts1Hukwt0rimH9VaoT8l-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="550" as="sourcePoint" />
-            <mxPoint x="527" y="520" as="targetPoint" />
+            <mxPoint x="536" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-68" value="&lt;h1 id=&quot;titleHeading&quot; style=&quot;margin: 0px ; background-position: 0px 0px&quot;&gt;&lt;font color=&quot;#a09fa0&quot; face=&quot;helvetica, lucida grande, lucida, verdana, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;traversal&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=1;entryY=0.431;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ts1Hukwt0rimH9VaoT8l-34" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="630" y="440" as="sourcePoint" />
+            <mxPoint x="650" y="440" as="sourcePoint" />
             <mxPoint x="790" y="440" as="targetPoint" />
             <Array as="points">
               <mxPoint x="780" y="440" />
@@ -137,10 +101,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-69" value="&lt;span&gt;genTpAndName 遍历当前VC View生成当前事件TP/Name&lt;br&gt;采用配置文件统一管控，手动携带对应字段&lt;br&gt;&lt;/span&gt;&lt;span&gt;genTpExtra 为遍历UIStack生成TPExtra&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="910" y="412" width="340" height="60" as="geometry" />
+          <mxGeometry x="840" y="530" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ts1Hukwt0rimH9VaoT8l-70" value="&lt;span style=&quot;&quot;&gt;RN 存在复用，RN路由跳转&lt;br&gt;Native 获取TP维护到RN VC&lt;br&gt;插入TPExtra完成埋点信息&lt;br&gt;RXSwift可能获取到当前View&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="910" y="490" width="340" height="70" as="geometry" />
+        <mxCell id="ts1Hukwt0rimH9VaoT8l-70" value="&lt;span&gt;RN 存在复用，RN路由跳转&lt;br&gt;Native 获取TP维护到RN VCStack&lt;br&gt;添加TPExtra【fTP, ffTP】完成埋点信息&lt;br&gt;RXSwift可能获取到当前View&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="840" y="605" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aAOs8Qah9MS43MJjV7gb-1" value="UIViewController tp，name 存放VC跳转tp/name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="320" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aAOs8Qah9MS43MJjV7gb-3" value="{&quot;bbsHome_search&quot;:&quot;bbsHome:search&quot;,&lt;br&gt;&quot;bbsHome_notification&quot;:&quot;bbsHome:notification&quot;,&lt;br&gt;&quot;bbsHome_topicMore&quot;:&quot;bbsHome:topicMore&quot;,&lt;br&gt;&quot;bbsHome_topList&quot;:&quot;bbsHome:topicList:[N]&quot;,&lt;br&gt;&quot;bbsHome_feed&quot;:&quot;bbsHome:Feed:[N]&quot;,&lt;br&gt;&quot;bbsHome_publish&quot;:&quot;bbsHome:Publish&quot;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="100" width="310" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="aAOs8Qah9MS43MJjV7gb-4" value="&lt;h1 id=&quot;titleHeading&quot; style=&quot;margin: 0px ; background-position: 0px 0px&quot;&gt;&lt;font color=&quot;#a09fa0&quot; face=&quot;helvetica, lucida grande, lucida, verdana, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;traversal&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="aAOs8Qah9MS43MJjV7gb-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="650" y="410" as="sourcePoint" />
+            <mxPoint x="780.02" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1215" y="410" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
