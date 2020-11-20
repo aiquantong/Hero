@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T03:41:46.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="UOmEsDLvm9ecHebdF-M_" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T03:42:26.720Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="Zo9zxL-DMynk4p8LNccz" version="13.10.0" type="github">
   <diagram id="Gv3IoVOVaqEcXU43pG7Q" name="Page-1">
     <mxGraphModel dx="1502" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,10 +8,10 @@
           <mxGeometry x="460" y="175" width="580" height="175" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-12" value="UIViewController" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="481" y="220" width="140" height="100" as="geometry" />
+          <mxGeometry x="481" y="220" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-15" value="- view: UIView&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ts1Hukwt0rimH9VaoT8l-12" vertex="1">
-          <mxGeometry y="26" width="140" height="74" as="geometry" />
+          <mxGeometry y="26" width="140" height="84" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-22" value="UIViewController + Statistics" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="375" width="350" height="200" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry y="26" width="140" height="84" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-35" value="....." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="640" y="298" width="60" height="20" as="geometry" />
+          <mxGeometry x="640" y="270" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-36" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="120" width="20" height="480" as="geometry" />
@@ -96,7 +96,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-69" value="&lt;span&gt;采用配置文件管控，手动携带对应TP字段&lt;br&gt;&lt;/span&gt;&lt;span&gt;genTpExtra 为遍历UIStack生成TPExtra&lt;br&gt;&lt;/span&gt;&lt;span&gt;对应href如存在tpExtra，以href现有为准&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1110" y="620" width="340" height="60" as="geometry" />
+          <mxGeometry x="1010" y="570" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ts1Hukwt0rimH9VaoT8l-70" value="&lt;span&gt;Native内嵌入RN/Flutter容器，RN的跳转TP维护交给Native&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="530" y="769" width="340" height="50" as="geometry" />
