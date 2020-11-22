@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T03:56:57.468Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="1xHt9zdfYhisTrrBRGEu" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T03:59:47.121Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="SWiYk5ZNN4Loqqo0y8h9" version="13.10.0" type="github">
   <diagram id="Gv3IoVOVaqEcXU43pG7Q" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,7 +135,7 @@
         <mxCell id="OzCxuIW4rJWoH-lSTNHB-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="OzCxuIW4rJWoH-lSTNHB-7" vertex="1">
           <mxGeometry x="50" y="367" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OzCxuIW4rJWoH-lSTNHB-18" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;Native 解析TPExtra fTP/fTpName/fReqId 维护到RN VCStack&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;补充TPExtra 和 # {tp, name} 完成埋点信息&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="OzCxuIW4rJWoH-lSTNHB-7" target="OzCxuIW4rJWoH-lSTNHB-17" edge="1">
+        <mxCell id="OzCxuIW4rJWoH-lSTNHB-18" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;1，解析TPExtra fTP/fTpName/fReqId 维护到RN VCStack&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;2，补充TPExtra 和 # {tp, name} 完成埋点信息&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="OzCxuIW4rJWoH-lSTNHB-7" target="OzCxuIW4rJWoH-lSTNHB-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="307" as="sourcePoint" />
             <Array as="points">
