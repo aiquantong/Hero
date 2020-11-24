@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T15:23:25.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="nnlCQ2XayX9v9-6LpraQ" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T15:27:04.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="PGk9Kef-pd4gy2IUaGpr" version="13.10.1" type="github">
   <diagram id="u1_nD3B75MxYMhi2zC4e" name="Page-1">
     <mxGraphModel dx="2505" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,7 +123,7 @@
           <mxGeometry x="464" y="176" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="EN0fYVhojXhcvLmcb6r1-67" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="650" width="1420" height="1180" as="geometry" />
+          <mxGeometry x="40" y="663" width="1420" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="EN0fYVhojXhcvLmcb6r1-68" value="串联" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;direction=south;" vertex="1" parent="1">
           <mxGeometry x="20" y="920" width="20" height="40" as="geometry" />
@@ -172,7 +172,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EN0fYVhojXhcvLmcb6r1-110" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#FF0000;align=left;" vertex="1" parent="EN0fYVhojXhcvLmcb6r1-76">
-          <mxGeometry x="50" y="990" width="10" height="40" as="geometry" />
+          <mxGeometry x="50" y="1010" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EN0fYVhojXhcvLmcb6r1-80" value="1,调用 &lt;br&gt;UIViewController.current()&lt;br&gt;.genTPInfo(tpId, tpindex, tpName)&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="EN0fYVhojXhcvLmcb6r1-76">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -206,16 +206,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EN0fYVhojXhcvLmcb6r1-115" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#FF0000;align=left;" vertex="1" parent="EN0fYVhojXhcvLmcb6r1-83">
-          <mxGeometry x="50" y="890" width="10" height="130" as="geometry" />
+          <mxGeometry x="50" y="890" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="EN0fYVhojXhcvLmcb6r1-117" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#FF0000;align=left;" vertex="1" parent="EN0fYVhojXhcvLmcb6r1-83">
-          <mxGeometry x="60" y="949" width="10" height="40" as="geometry" />
+          <mxGeometry x="60" y="990" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EN0fYVhojXhcvLmcb6r1-118" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#FF0000;" edge="1" target="EN0fYVhojXhcvLmcb6r1-117" parent="EN0fYVhojXhcvLmcb6r1-83">
+        <mxCell id="EN0fYVhojXhcvLmcb6r1-118" value="9,parse(newExtra) -&amp;gt; (tp, name)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#FF0000;" edge="1" target="EN0fYVhojXhcvLmcb6r1-117" parent="EN0fYVhojXhcvLmcb6r1-83">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="65" y="929" as="sourcePoint" />
+            <mxPoint x="65" y="970" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="90" y="929" />
+              <mxPoint x="90" y="970" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -308,12 +308,24 @@
         </mxCell>
         <mxCell id="EN0fYVhojXhcvLmcb6r1-112" value="" style="endArrow=none;startArrow=block;endFill=0;startFill=1;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="460" y="1670" as="sourcePoint" />
-            <mxPoint x="760" y="1671" as="targetPoint" />
+            <mxPoint x="460" y="1694.82" as="sourcePoint" />
+            <mxPoint x="760" y="1695.82" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EN0fYVhojXhcvLmcb6r1-113" value="TPConfig.addTpInStack(tp, tpName)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="489.75" y="1640" width="230.5" height="26" as="geometry" />
+        <mxCell id="EN0fYVhojXhcvLmcb6r1-113" value="10.TPConfig.addTpInStack(tp, tpName)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="489.75" y="1670" width="230.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EN0fYVhojXhcvLmcb6r1-119" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1107" y="1580" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EN0fYVhojXhcvLmcb6r1-120" value="{&lt;br&gt;&quot;urlinfo&quot;:&lt;b&gt;newHref&lt;/b&gt;,&lt;br&gt;&quot;pti&quot;:&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;b&gt;newtpExtra&lt;/b&gt;&lt;/span&gt;&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1117" y="1590" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EN0fYVhojXhcvLmcb6r1-121" value="&amp;nbsp;&lt;font color=&quot;#cc0000&quot;&gt;8,StatisticsEvent:sendDaceEvent(href, tpExtra&lt;/font&gt;)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="767" y="1610" as="sourcePoint" />
+            <mxPoint x="1107" y="1610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
